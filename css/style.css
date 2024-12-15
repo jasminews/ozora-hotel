@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Zen+Kurenaido&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+}
+body {
+    background: url(top.jpg);
+    background-repeat: repeat;
+}
+#wrapper {
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+}
+.lace-1 img {
+    position: relative;
+}
+.slider_top img {
+    position: absolute;
+    top: 220px;
+}
+.lace-2 img {
+    position: absolute;
+    top: 950px;
+}
+.navi {
+    position: absolute;
+    top:-40px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navitop {
+    cursor: pointer;
+}
+.navi :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.text_top {
+    position: relative;
+    top: 725px;
+    color: #fb7e93;
+    font-family: "Zen Kurenaido", serif;
+    font-size: 44px;
+    font-weight: bold;
+    margin: 0 30px;
+}
+.container1 {
+    background: url(bg1_pc.png);
+    max-width: 990px;
+    position: relative;
+    top: 885px;
+    height: 1505px;
+}
+.container2 {
+    background: url(bg2_pc.png);
+    max-width: 990px;
+    position: relative;
+    top: 345px;
+    height: 1595px;
+}
+.container3 {
+    background: url(bg3_pc.png);
+    max-width: 990px;
+    position: relative;
+    top: 410px;
+    height:1704px;
+}
+#family {
+    margin: auto;
+}
+#bonyok {
+    margin: auto;
+}
+.numbertext {
+    display: none;
+  }
+#slider1 {
+    position: relative;
+    top: 200px;
+}
+#slider2 {
+    position: relative;
+    top: 200px;
+}
+#title1 {
+    position: relative;
+    text-align: center;
+    top: 180px;
+}
+#title2 {
+    position: relative;
+    text-align: center;
+    top: 130px;
+}
+#title3 {
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+.foto1 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.foto2 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.text1 {
+    font-family: "Zen Kurenaido", serif;
+    color: #fb7e93;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.text2 {
+    font-family: "Zen Kurenaido", serif;
+    color: #f08a8a;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+#btnbox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -180px;
+}
+.mybtn-f {
+    color: #ffcdcd;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 20px;
+}
+.mybtn-f.mybtn1 {
+    background-color: #ffcdcd;
+}
+.mybtn-f.mybtn2 {
+    background-color: #ffcdcd;
+}
+.mybtn-f.mybtn3 {
+    background-color: #ffcdcd;
+}
+.mybtn-f.mybtn4 {
+    background-color: #ffcdcd;
+}
+
+.mybtn-b {
+    color: #ffcdcd;
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 20px;
+}
+.mybtn-b.mybtn1 {
+    background-color: #ffcdcd;
+}
+.mybtn-b.mybtn2 {
+    background-color: #ffcdcd;
+}
+.mybtn-b.mybtn3 {
+    background-color: #ffcdcd;
+}
+
+.mybtn-f:hover {
+    background-color: #fb7e93;
+    box-shadow: #ffcdcd 0px 5px 5px;
+}
+.mybtn-b:hover {
+    background-color: #f19b9b;
+    box-shadow: #ffcdcd 0px 5px 5px;
+}
+.famipa {
+    display: flex;
+    text-align: center;
+    font-family: "Zen Kurenaido", serif;
+    font-size: 26px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 95px;
+    margin-left: 75px ;
+    margin-right: 60px;
+}
+.bonyokpa {
+    color: #fffcf3;
+    text-align: center;
+    font-family: "Zen Kurenaido", serif;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 95px;
+}
+.plan1-1 {
+    color: #5b6dd6;
+}
+.plan2-1 {
+    color: #e27474;
+}
+.btnfa {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.btnfa :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+.btnbonyok {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btnbonyok :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
