@@ -13,7 +13,7 @@ body {
     background: url(top.jpg);
     background-repeat: repeat;
 }
-#wrapper {
+.wrapper {
     background-color: #ffcdcd;
     width: 100%;
     max-width: 990px;
@@ -148,7 +148,7 @@ body {
     margin: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 110px;
     border: none;
     border-radius: 60px;
 }
@@ -204,7 +204,7 @@ body {
     color: #fb7e93;
     font-size: 48px;
 }
-.kecil {
+.kicik {
     color: #f19b9b;
     padding-top: 20px;
     font-size: 32px;
@@ -279,17 +279,7 @@ body {
     z-index: 1;
 }
 
-.dot1, .dot4 {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #ffcdcd;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.dot2 {
+.dot1, .dot2, .dot4 {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -310,13 +300,10 @@ body {
     transition: background-color 0.6s ease;
 }
 
-.active, .dot1:hover, .dot4:hover {
+.dot1:hover, .dot2:hover, .dot4:hover {
     background-color: #fb7e93;
 }
-.active, .dot2:hover {
-    background-color: #f19b9b;
-}
-.active, .dot3:hover {
+.dot3:hover {
     background-color: #ffc9c9;
 }
 
