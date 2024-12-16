@@ -14,20 +14,41 @@ body {
     background-repeat: repeat;
 }
 #wrapper {
+    background-color: #ffcdcd;
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
 }
+.auto {
+    display: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
 .lace-1 img {
     position: relative;
+}
+.lace-2 img {
+    position: absolute;
+    top: 950px;
 }
 .slider_top img {
     position: absolute;
     top: 220px;
 }
-.lace-2 img {
-    position: absolute;
-    top: 950px;
+.navitop {
+    cursor: pointer;
+}
+.navi :hover {
+    transform: scale(1.1);
+    z-index: 1;
 }
 .navi {
     position: absolute;
@@ -40,14 +61,6 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-.navitop {
-    cursor: pointer;
-}
-.navi :hover {
-    transform: scale(1.1);
-    z-index: 1;
-}
-
 .text_top {
     position: relative;
     top: 725px;
@@ -57,142 +70,277 @@ body {
     font-weight: bold;
     margin: 0 30px;
 }
-.container1 {
+#container1 {
     background: url(bg1_pc.png);
     max-width: 990px;
     position: relative;
+    margin: auto;
     top: 885px;
     height: 1505px;
 }
-.container2 {
+#container2 {
     background: url(bg2_pc.png);
     max-width: 990px;
     position: relative;
-    top: 345px;
+    top: 150px;
     height: 1595px;
 }
-.container3 {
+#container3 {
     background: url(bg3_pc.png);
     max-width: 990px;
     position: relative;
-    top: 410px;
-    height:1704px;
+    top: 150px;
+    height: 1704px;
 }
-#family {
-    margin: auto;
+#container4 {
+    background: url(bg4_pc.png);
+    max-width: 990px;
+    position: relative;
+    top: 29px;
+    height: 2097px;
 }
-#bonyok {
-    margin: auto;
+#container5 {
+    background: url(bg5_pc.png);
+    max-width: 990px;
+    position: relative;
+    top: 323px;
+    height: 1092px;
+    text-align: center;
 }
-.numbertext {
+
+.mySlides1 {
     display: none;
-  }
-#slider1 {
-    position: relative;
-    top: 200px;
+    height: 450px;
 }
-#slider2 {
-    position: relative;
-    top: 200px;
+.mySlides2 {
+    display: none;
+    height: 490px;
 }
+.mySlides3 {
+    display: none;
+    height: 485px;
+}
+.mySlides4 {
+    display: none;
+    height: 490px;
+}
+
+.mySlides1 img  {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    border: none;
+    border-radius: 60px;
+}
+.mySlides2 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 210px;
+    border: none;
+    border-radius: 60px;
+}
+.mySlides3 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    border: none;
+    border-radius: 60px;
+}
+.mySlides4 img {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+    border: none;
+    border-radius: 60px;
+}
+
+.mySlides1 .text1 {
+    font-family: "Zen Kurenaido", serif;
+    color: #fb7e93;
+    padding-top: 70px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.mySlides2 .text2 {
+    font-family: "Zen Kurenaido", serif;
+    color: #f08a8a;
+    padding-top: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.mySlides3 .text3 {
+    font-family: "Zen Kurenaido", serif;
+    color: #ffd8db;
+    padding-top: 55px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.mySlides4 .text4 {
+    font-family: "Zen Kurenaido", serif;
+    color: #fb7e93;
+    padding-top: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.review {
+    font-family: "Zen Kurenaido", serif;
+    margin-top: 490px;   
+    font-weight: bold;
+    text-align: center;
+}
+.gede {
+    color: #fb7e93;
+    font-size: 48px;
+}
+.kecil {
+    color: #f19b9b;
+    padding-top: 20px;
+    font-size: 32px;
+}
+.text5 {
+    font-family: "Zen Kurenaido", serif;
+    color: #fb7e93;
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 18px;
+    color: #fb7e93;
+    background-color: #ffcdcd;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    user-select: none;
+    margin: 380px 60px;
+}
+.prev2, .next2 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 18px;
+    color: #fff7dd;
+    background-color: #f19b9b;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    user-select: none;
+    margin: 400px 80px;
+}
+.prev3, .next3 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 18px;
+    color: #fb7e93;
+    background-color: #ffd8da;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    user-select: none;
+    margin: 300px 70px;
+}
+.prev4, .next4 {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 18px;
+    color: #fb7e93;
+    background-color: #ffcdcd;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    user-select: none;
+    margin: 420px 70px;
+}
+
+.next {
+    right: 0;
+}
+.prev:hover, .next:hover {
+    transform: scale(1.5);
+    z-index: 1;
+}
+
+.dot1, .dot4 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffcdcd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot2 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #ffcdcd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot3 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #fefbf6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot1:hover, .dot4:hover {
+    background-color: #fb7e93;
+}
+.active, .dot2:hover {
+    background-color: #f19b9b;
+}
+.active, .dot3:hover {
+    background-color: #ffc9c9;
+}
+
 #title1 {
     position: relative;
     text-align: center;
-    top: 180px;
+    top: 160px;
 }
 #title2 {
     position: relative;
     text-align: center;
-    top: 130px;
+    top: 190px;
 }
 #title3 {
     position: relative;
     text-align: center;
+    top: 70px;
+}
+#title4 {
+    position: relative;
+    text-align: center;
     top: 200px;
 }
-.foto1 img {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-}
-.foto2 img {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-}
-.text1 {
-    font-family: "Zen Kurenaido", serif;
-    color: #fb7e93;
-    padding-top: 50px;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-}
-.text2 {
-    font-family: "Zen Kurenaido", serif;
-    color: #f08a8a;
-    padding-top: 50px;
-    font-size: 32px;
-    font-weight: bold;
-    text-align: center;
-}
-#btnbox {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -180px;
-}
-.mybtn-f {
-    color: #ffcdcd;
-    width: 20px;
-    height: 20px;
-    margin: 8px;
-    border: none;
-    border-radius: 20px;
-}
-.mybtn-f.mybtn1 {
-    background-color: #ffcdcd;
-}
-.mybtn-f.mybtn2 {
-    background-color: #ffcdcd;
-}
-.mybtn-f.mybtn3 {
-    background-color: #ffcdcd;
-}
-.mybtn-f.mybtn4 {
-    background-color: #ffcdcd;
-}
 
-.mybtn-b {
-    color: #ffcdcd;
-    width: 20px;
-    height: 20px;
-    margin: 8px;
-    border: none;
-    border-radius: 20px;
-}
-.mybtn-b.mybtn1 {
-    background-color: #ffcdcd;
-}
-.mybtn-b.mybtn2 {
-    background-color: #ffcdcd;
-}
-.mybtn-b.mybtn3 {
-    background-color: #ffcdcd;
-}
-
-.mybtn-f:hover {
-    background-color: #fb7e93;
-    box-shadow: #ffcdcd 0px 5px 5px;
-}
-.mybtn-b:hover {
-    background-color: #f19b9b;
-    box-shadow: #ffcdcd 0px 5px 5px;
-}
 .famipa {
     display: flex;
     text-align: center;
@@ -200,26 +348,91 @@ body {
     font-size: 26px;
     font-weight: bold;
     justify-content: space-between;
-    margin-top: 95px;
+    margin-top: 300px;
     margin-left: 75px ;
     margin-right: 60px;
 }
-.bonyokpa {
+.plan1-1 {
+    color: #5b6dd6;
+}
+.plan1-2 {
+    color: #e27474;
+}
+.plan2 {
     color: #fffcf3;
     text-align: center;
     font-family: "Zen Kurenaido", serif;
     font-size: 40px;
     font-weight: bold;
     justify-content: center;
-    margin-top: 95px;
+    margin-top: 280px;
 }
-.plan1-1 {
-    color: #5b6dd6;
+.plan3-1, .harga1 {
+    color: #fc728b;
 }
-.plan2-1 {
-    color: #e27474;
+.plan3-2, .harga2 {
+    color: #fffafc;
 }
-.btnfa {
+.camppa {
+    display: inline;
+    text-align: center;
+    font-family: "Zen Kurenaido", serif;
+    font-size: 26px;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 75px ;
+    margin-right: 60px;
+}
+.plan3-1 {
+    margin: 310px 40px 0;
+}
+.plan3-2 {
+    margin: 90px 40px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 170px 0 70px;
+}
+.harga1, .harga2 {
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 90px;
+}
+
+.highlight1 {
+    background-color: #fffafc;
+    border: none;
+    border-radius: 40px;
+}
+.highlight2 {
+    background-color: #fc728b;
+    border: none;
+    border-radius: 40px;
+}
+
+.kupon {
+    text-align: center;
+}
+.kupon img {
+    margin-top: 10px;
+}
+.decor {
+    position: absolute;
+    top: 290px;
+}
+.pesawat img {
+    width: 40%;
+    display: inline;
+    justify-self: space-between;
+    margin: 40px 20px ;
+}
+.last img {
+    margin-top: 20px;
+}
+
+.button1 {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -227,17 +440,40 @@ body {
     margin-left: 120px;
     margin-right: 120px;
 }
-.btnfa :hover {
-    transform: scale(1.1);
-    z-index: 1;
-}
-.btnbonyok {
+.button2 {
     cursor: pointer;
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
-.btnbonyok :hover {
+.button3-1 {
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button3-2 {
+    cursor: pointer;
+    margin-top: 20px;
+}
+.button4 {
+    cursor: pointer;
+}
+.button5 {
+    cursor: pointer;
+}
+
+.button1 :hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+.button2 :hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.button3-1:hover, .button3-2:hover, .last:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+.button4:hover, .jal:hover, .ana:hover {
     transform: scale(1.1);
     z-index: 1;
 }
