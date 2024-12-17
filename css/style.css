@@ -63,12 +63,14 @@ body {
 }
 .text_top {
     position: relative;
-    top: 725px;
+    top: 730px;
     color: #fb7e93;
     font-family: "Zen Kurenaido", serif;
-    font-size: 40px;
+    font-size: 42px;
     font-weight: bold;
-    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #container1 {
     background: url(bg1_pc.png);
