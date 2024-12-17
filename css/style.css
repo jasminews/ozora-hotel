@@ -200,16 +200,18 @@ body {
     font-family: "Zen Kurenaido", serif;
     margin-top: 490px;   
     font-weight: bold;
-    text-align: center;
 }
 .gede {
     color: #fb7e93;
     font-size: 48px;
+    text-align: center;
 }
 .kicik {
     color: #f19b9b;
     padding-top: 20px;
     font-size: 32px;
+    display: flex;
+    justify-content: center;
 }
 .text5 {
     font-family: "Zen Kurenaido", serif;
