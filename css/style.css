@@ -53,7 +53,7 @@ body {
 }
 .navi {
     position: absolute;
-    top:-40px;
+    top:-35px;
     display: flex;
     justify-content: space-between;
     list-style: none;
