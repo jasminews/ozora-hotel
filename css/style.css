@@ -11,6 +11,7 @@ html {
 }
 body {
     background: url(top.jpg);
+    background-size: 50%;
     background-repeat: repeat;
 }
 .wrapper {
@@ -164,10 +165,18 @@ body {
     border-radius: 60px;
 }
 
-.mySlides1 .text1 {
+.mySlides1 .text1-1 {
     font-family: "Zen Kurenaido", serif;
     color: #fb7e93;
     padding-top: 70px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+.mySlides1 .text1-2 {
+    font-family: "Zen Kurenaido", serif;
+    color: #fb7e93;
+    padding-top: 60px;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -196,6 +205,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
 .review {
     font-family: "Zen Kurenaido", serif;
     margin-top: 490px;   
@@ -272,7 +282,7 @@ body {
     font-size: 18px;
     border-radius: 20px;
     user-select: none;
-    margin: 420px 70px;
+    margin: 420px 80px;
 }
 
 .next {
@@ -305,10 +315,13 @@ body {
 }
 
 .dot1:hover, .dot2:hover, .dot4:hover {
-    background-color: #fb7e93;
+    background-color: #f08a8a;
 }
 .dot3:hover {
     background-color: #ffc9c9;
+}
+.active {
+    background-color: #aee1dd;
 }
 
 #title1 {
