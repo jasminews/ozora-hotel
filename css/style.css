@@ -5,11 +5,13 @@
     box-sizing: border-box;
 }
 html {
+    height: 100%;
     -moz-text-size-adjust: none;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
 }
 body {
+    height: 100%;
     background: url(top.jpg);
     background-size: 50%;
     background-repeat: repeat;
@@ -18,7 +20,8 @@ body {
     background-color: #ffcdcd;
     width: 100%;
     max-width: 990px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .auto {
     display: none;
@@ -81,7 +84,6 @@ body {
     background: url(bg1_pc.png);
     max-width: 990px;
     position: relative;
-    margin: auto;
     top: 885px;
     height: 1505px;
 }
@@ -200,7 +202,7 @@ body {
 .mySlides1 .text1-2 {
     font-family: "Zen Kurenaido", serif;
     color: #fb7e93;
-    padding-top: 60px;
+    padding-top: 70px;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -380,11 +382,16 @@ body {
     margin-left: 75px ;
     margin-right: 60px;
 }
-.plan1-1 {
+.plan1-1.pc {
     color: #5b6dd6;
 }
-.plan1-2 {
+.plan1-2.pc {
     color: #e27474;
+}
+@media screen and (min-width: 426px) {
+    .plan1-1.hp, .plan1-2.hp {
+    display: none;
+    }
 }
 .plan2 {
     color: #fffcf3;

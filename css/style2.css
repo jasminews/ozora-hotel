@@ -58,7 +58,7 @@
     }
     .navi {
         position: absolute;
-        top: -496px;
+        top: 10px;
         display: flex;
         justify-content: space-between;
         list-style: none;
@@ -73,7 +73,7 @@
         top: 342px;
         color: #fb7e93;
         font-family: "Zen Kurenaido", serif;
-        font-size: 19px;
+        font-size: 18px;
         font-weight: bold;
         display: flex;
         justify-content: center;
@@ -85,9 +85,10 @@
         max-width: 425px;
     }
     #container1 {
-        background: url(bg1_pc.png);
-        top: 485px;
-        height: 1505px;
+        background: url(bg1_hp.png);
+        top: 380px;
+        height: 646px;
+        background-size: 100%;
     }
     #container1 img {
         width: 100%;
@@ -145,7 +146,9 @@
     
     .mySlides1 {
         display: none;
-        height: 450px;
+        height: 165px;
+        margin: auto;
+        max-width: 95%;
     }
     .mySlides2 {
         display: none;
@@ -162,12 +165,12 @@
     
     .mySlides1 img  {
         display: flex;
-        margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 200px;
+        margin-top: 90px;
+        margin-bottom: 0px;
         border: none;
-        border-radius: 60px;
+        border-radius: 30px;
     }
     .mySlides2 img {
         display: flex;
@@ -176,7 +179,7 @@
         align-items: center;
         margin-top: 210px;
         border: none;
-        border-radius: 60px;
+        border-radius: 30px;
     }
     .mySlides3 img {
         display: flex;
@@ -185,7 +188,7 @@
         align-items: center;
         margin-top: 110px;
         border: none;
-        border-radius: 60px;
+        border-radius: 30px;
     }
     .mySlides4 img {
         display: flex;
@@ -194,22 +197,22 @@
         align-items: center;
         margin-top: 230px;
         border: none;
-        border-radius: 60px;
+        border-radius: 30px;
     }
     
     .mySlides1 .text1-1 {
         font-family: "Zen Kurenaido", serif;
         color: #fb7e93;
-        padding-top: 70px;
-        font-size: 32px;
+        padding-top: 15px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
     .mySlides1 .text1-2 {
         font-family: "Zen Kurenaido", serif;
         color: #fb7e93;
-        padding-top: 60px;
-        font-size: 32px;
+        padding-top: 14px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
@@ -268,14 +271,14 @@
         cursor: pointer;
         position: absolute;
         width: auto;
-        padding: 18px;
+        padding: 7px;
         color: #fb7e93;
         background-color: #ffcdcd;
         font-weight: bold;
-        font-size: 18px;
-        border-radius: 20px;
+        font-size: 10px;
+        border-radius: 8px;
         user-select: none;
-        margin: 380px 60px;
+        margin: 160px 32px;
     }
     .prev2, .next2 {
         cursor: pointer;
@@ -327,9 +330,9 @@
     
     .dot1, .dot2, .dot4 {
         cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 0 2px;
+        height: 5px;
+        width: 5px;
+        margin: 0 auto;
         background-color: #ffcdcd;
         border-radius: 50%;
         display: inline-block;
@@ -337,8 +340,8 @@
     }
     .dot3 {
         cursor: pointer;
-        height: 15px;
-        width: 15px;
+        height: 5px;
+        width: 5px;
         margin: 0 2px;
         background-color: #fefbf6;
         border-radius: 50%;
@@ -358,8 +361,9 @@
     
     #title1 {
         position: relative;
-        text-align: center;
-        top: 160px;
+        margin: auto;
+        top: 85px;
+        max-width: 290px;
     }
     #title2 {
         position: relative;
@@ -378,21 +382,23 @@
     }
     
     .famipa {
-        display: flex;
+        display: inline;
         text-align: center;
         font-family: "Zen Kurenaido", serif;
-        font-size: 26px;
+        font-size: 12px;
         font-weight: bold;
         justify-content: space-between;
-        margin-top: 300px;
-        margin-left: 75px ;
-        margin-right: 60px;
     }
-    .plan1-1 {
+    .plan1-1.hp {
         color: #5b6dd6;
+        margin: 75px 40px 0;
     }
-    .plan1-2 {
+    .plan1-2.hp {
         color: #e27474;
+        margin: 63px 40px 0;
+    }
+    .plan1-1.pc, .plan1-2.pc {
+        display: none;
     }
     .plan2 {
         color: #fffcf3;
@@ -470,11 +476,18 @@
     
     .button1 {
         cursor: pointer;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10px;
-        margin-left: 120px;
-        margin-right: 120px;
+        display: inline;
+        text-align: center;
+        position: relative;
+        margin: auto;
+    }
+    .button1-1, img {
+        width: 100%;
+        max-width: 120px;
+    }
+    .button1-2, img {
+        width: 100%;
+        max-width: 120px;
     }
     .button2 {
         cursor: pointer;
