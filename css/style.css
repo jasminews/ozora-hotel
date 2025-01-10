@@ -392,6 +392,9 @@ body {
     .plan1-1.hp, .plan1-2.hp {
     display: none;
     }
+    .jal.hp, .ana.hp {
+        display: none;
+    }
 }
 .plan2 {
     color: #fffcf3;
