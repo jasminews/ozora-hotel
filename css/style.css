@@ -133,9 +133,9 @@ body {
     font-size: 28px;
   }
   
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #aee1dd;
-  }
+}
 
 .mySlides1 {
     display: none;

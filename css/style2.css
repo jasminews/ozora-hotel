@@ -129,14 +129,17 @@
         max-width: 425px;
     }
     #container5 {
-        background: url(bg5_pc.png);
+        background: url(bg5_hp.png);
         max-width: 425px;
         position: relative;
         top: 880px;
         height: 1092px;
         text-align: center;
     }
-    
+    #container5 img {
+        width: 100%;
+        max-width: 425px;
+    }
     #myBtn {
         display: none;
         position: fixed;
@@ -153,9 +156,9 @@
         font-size: 28px;
       }
       
-      #myBtn:hover {
+    #myBtn:hover {
         background-color: #aee1dd;
-      }
+    }
     
     .mySlides1 {
         display: none;
