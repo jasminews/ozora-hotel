@@ -95,25 +95,38 @@
         max-width: 425px;
     }
     #container2 {
-        background: url(bg2_pc.png);
+        background: url(bg2_hp.png);
+        width: 100%;
         max-width: 425px;
         position: relative;
-        top: 880px;
-        height: 1595px;
+        top: 379px;
+        height: 582px;
+    }
+    #container2 img {
+        width: 100%;
+        max-width: 425px;
     }
     #container3 {
-        background: url(bg3_pc.png);
+        background: url(bg3_hp.png);
         max-width: 425px;
         position: relative;
-        top: 880px;
-        height: 1704px;
+        top: 378px;
+        height: 632px;
+    }
+    #container3 img {
+        width: 100%;
+        max-width: 425px;
     }
     #container4 {
-        background: url(bg4_pc.png);
+        background: url(bg4_hp.png);
         max-width: 425px;
         position: relative;
-        top: 880px;
-        height: 2097px;
+        top: 377px;
+        height: 753px;
+    }
+    #container4 img {
+        width: 100%;
+        max-width: 425px;
     }
     #container5 {
         background: url(bg5_pc.png);
@@ -152,15 +165,21 @@
     }
     .mySlides2 {
         display: none;
-        height: 490px;
+        height: 172px;
+        margin: auto;
+        max-width: 90%;
     }
     .mySlides3 {
         display: none;
-        height: 485px;
+        height: 175px;
+        margin: auto;
+        max-width: 90%;
     }
     .mySlides4 {
         display: none;
-        height: 490px;
+        height: 172px;
+        margin: auto;
+        max-width: 90%;
     }
     
     .mySlides1 img  {
@@ -177,7 +196,7 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 210px;
+        margin-top: 72px;
         border: none;
         border-radius: 30px;
     }
@@ -186,7 +205,7 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 110px;
+        margin-top: 28px;
         border: none;
         border-radius: 30px;
     }
@@ -195,7 +214,7 @@
         margin: auto;
         justify-content: center;
         align-items: center;
-        margin-top: 230px;
+        margin-top: 70px;
         border: none;
         border-radius: 30px;
     }
@@ -219,42 +238,42 @@
     .mySlides2 .text2 {
         font-family: "Zen Kurenaido", serif;
         color: #f08a8a;
-        padding-top: 60px;
-        font-size: 32px;
+        padding-top: 14px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
     .mySlides3 .text3 {
         font-family: "Zen Kurenaido", serif;
         color: #ffd8db;
-        padding-top: 55px;
-        font-size: 32px;
+        padding-top: 20px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
     .mySlides4 .text4 {
         font-family: "Zen Kurenaido", serif;
         color: #fb7e93;
-        padding-top: 60px;
-        font-size: 32px;
+        padding-top: 15px;
+        font-size: 12px;
         font-weight: bold;
         text-align: center;
     }
     
     .review {
         font-family: "Zen Kurenaido", serif;
-        margin-top: 490px;   
+        margin-top: 175px;   
         font-weight: bold;
     }
     .gede {
         color: #fb7e93;
-        font-size: 48px;
+        font-size: 16px;
         text-align: center;
     }
     .kicik {
         color: #f19b9b;
-        padding-top: 20px;
-        font-size: 32px;
+        padding-top: 5px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
     }
@@ -284,40 +303,40 @@
         cursor: pointer;
         position: absolute;
         width: auto;
-        padding: 18px;
+        padding: 7px;
         color: #fff7dd;
         background-color: #f19b9b;
         font-weight: bold;
-        font-size: 18px;
-        border-radius: 20px;
+        font-size: 10px;
+        border-radius: 8px;
         user-select: none;
-        margin: 400px 70px;
+        margin: 152px 42px;
     }
     .prev3, .next3 {
         cursor: pointer;
         position: absolute;
         width: auto;
-        padding: 18px;
+        padding: 7px;
         color: #fb7e93;
         background-color: #ffd8da;
         font-weight: bold;
-        font-size: 18px;
-        border-radius: 20px;
+        font-size: 10px;
+        border-radius: 8px;
         user-select: none;
-        margin: 300px 70px;
+        margin: 100px 42px;
     }
     .prev4, .next4 {
         cursor: pointer;
         position: absolute;
         width: auto;
-        padding: 18px;
+        padding: 7px;
         color: #fb7e93;
         background-color: #ffcdcd;
         font-weight: bold;
-        font-size: 18px;
-        border-radius: 20px;
+        font-size: 10px;
+        border-radius: 8px;
         user-select: none;
-        margin: 420px 75px;
+        margin: 150px 42px;
     }
     
     .next {
@@ -342,7 +361,7 @@
         cursor: pointer;
         height: 5px;
         width: 5px;
-        margin: 0 2px;
+        margin: 0 auto;
         background-color: #fefbf6;
         border-radius: 50%;
         display: inline-block;
@@ -367,18 +386,21 @@
     }
     #title2 {
         position: relative;
-        text-align: center;
-        top: 185px;
+        margin: auto;
+        top: 70px;
+        max-width: 290px;
     }
     #title3 {
         position: relative;
-        text-align: center;
-        top: 70px;
+        margin: auto;
+        top: 22px;
+        max-width: 290px;
     }
     #title4 {
         position: relative;
-        text-align: center;
-        top: 200px;
+        margin: auto;
+        top: 64px;
+        max-width: 290px;
     }
     
     .famipa {
@@ -404,10 +426,10 @@
         color: #fffcf3;
         text-align: center;
         font-family: "Zen Kurenaido", serif;
-        font-size: 40px;
+        font-size: 14px;
         font-weight: bold;
         justify-content: center;
-        margin-top: 280px;
+        margin-top: 85px;
     }
     .plan3-1, .harga1 {
         color: #fc728b;
@@ -419,28 +441,28 @@
         display: inline;
         text-align: center;
         font-family: "Zen Kurenaido", serif;
-        font-size: 26px;
+        font-size: 11px;
         font-weight: bold;
         justify-content: space-between;
-        margin-top: 300px;
+        margin-top: 200px;
         margin-left: 75px ;
         margin-right: 60px;
     }
     .plan3-1 {
-        margin: 310px 40px 0;
+        margin: 105px 40px 0;
     }
     .plan3-2 {
-        margin: 90px 40px 0;
+        margin: 162px 40px 0;
     }
     .flex {
         display: flex;
         justify-content: space-between;
-        margin: 5px 170px 0 70px;
+        margin: 5px 45px 0 40px;
     }
     .harga1, .harga2 {
         text-align: center;
         justify-content: space-between;
-        margin: 0 90px;
+        margin: 0 20px;
     }
     
     .highlight1 {
@@ -476,32 +498,36 @@
     
     .button1 {
         cursor: pointer;
-        display: inline;
-        text-align: center;
-        position: relative;
-        margin: auto;
-    }
-    .button1-1, img {
+        display: block;
+        position: absolute;
+        justify-content: center;
         width: 100%;
-        max-width: 120px;
+        max-width: 160px;
+        margin: -80px 0;
     }
-    .button1-2, img {
-        width: 100%;
-        max-width: 120px;
+    .button1-1 img {
+        margin-top: -400px;
     }
+
     .button2 {
         cursor: pointer;
         display: flex;
         justify-content: center;
+        width: 100%;
+        max-width: 160px;
         margin-top: 10px;
     }
     .button3-1 {
         cursor: pointer;
-        margin-top: 20px;
+        width: 100%;
+        max-width: 160px;
+        margin: -80px 0;
     }
     .button3-2 {
         cursor: pointer;
-        margin-top: 20px;
+        width: 100%;
+        max-width: 160px;
+        margin: -80px 0;
     }
     .button4 {
         cursor: pointer;
