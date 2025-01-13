@@ -392,6 +392,12 @@ body {
     .plan1-1.hp, .plan1-2.hp {
     display: none;
     }
+    .pesawat img {
+        width: 40%;
+        display: inline;
+        justify-self: space-between;
+        margin: 40px 20px ;
+    }
     .jal.hp, .ana.hp {
         display: none;
     }
@@ -459,12 +465,6 @@ body {
 .decor {
     position: absolute;
     top: 295px;
-}
-.pesawat img {
-    width: 40%;
-    display: inline;
-    justify-self: space-between;
-    margin: 40px 20px ;
 }
 .last img {
     margin-top: 20px;
