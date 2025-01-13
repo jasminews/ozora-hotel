@@ -388,7 +388,7 @@ body {
 .plan1-2.pc {
     color: #e27474;
 }
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 431px) {
     .plan1-1.hp, .plan1-2.hp {
     display: none;
     }
