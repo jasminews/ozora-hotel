@@ -265,7 +265,7 @@
     
     .review {
         font-family: "Zen Kurenaido", serif;
-        margin-top: 175px;   
+        margin-top: 180px;   
         font-weight: bold;
     }
     .gede {
@@ -416,7 +416,7 @@
     }
     .plan1-1.hp {
         color: #5b6dd6;
-        margin: 75px 40px 0;
+        margin: 72px 40px 0;
     }
     .plan1-2.hp {
         color: #e27474;
@@ -444,7 +444,7 @@
         display: inline;
         text-align: center;
         font-family: "Zen Kurenaido", serif;
-        font-size: 11px;
+        font-size: 10px;
         font-weight: bold;
         justify-content: space-between;
         margin-top: 200px;
@@ -452,15 +452,15 @@
         margin-right: 60px;
     }
     .plan3-1 {
-        margin: 105px 40px 0;
+        margin-top: 102px;
     }
     .plan3-2 {
-        margin: 162px 40px 0;
+        margin-top: 26px
     }
     .flex {
         display: flex;
         justify-content: space-between;
-        margin: 5px 45px 0 40px;
+        margin: 2px 55px;
     }
     .harga1, .harga2 {
         text-align: center;
@@ -478,14 +478,8 @@
         border: none;
         border-radius: 40px;
     }
-    
-    .kupon {
-        text-align: center;
-    }
     .kupon img {
         margin-top: 1px;
-        margin-left: 30px;
-        margin-right: 30px
     }
     .decor {
         display: none;
@@ -514,40 +508,44 @@
     .button1 {
         cursor: pointer;
         display: block;
-        position: absolute;
+        position: relative;
         justify-content: center;
         width: 100%;
-        max-width: 160px;
-        margin: -80px 0;
+        max-width: 140px;
+        margin: auto;
     }
-    .button1-1 img {
-        margin-top: -400px;
+    .button1-1 {
+        margin-top: -118px;
     }
-
+    .button1-2 {
+        margin-top: 63px;
+    }
     .button2 {
         cursor: pointer;
-        display: flex;
+        display: block;
+        position: relative;
         justify-content: center;
         width: 100%;
-        max-width: 160px;
-        margin-top: 10px;
+        max-width: 150px;
+        margin: 6px auto;
+    }
+    .button3-1, .button3-2 {
+        cursor: pointer;
+        width: 100%;
+        max-width: 120px;
+        margin: auto;
     }
     .button3-1 {
-        cursor: pointer;
-        width: 100%;
-        max-width: 160px;
-        margin: -80px 0;
+        padding-top: 6px;
     }
     .button3-2 {
-        cursor: pointer;
-        width: 100%;
-        max-width: 160px;
-        margin: -80px 0;
+        padding-top: 4px;
     }
     .button4 {
         cursor: pointer;
         width: 100%;
-        max-width: 370px;
+        max-width: 350px;
+        margin: auto;
     }
     .button5 {
         cursor: pointer;
